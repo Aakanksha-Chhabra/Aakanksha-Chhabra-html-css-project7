@@ -1,0 +1,190 @@
+body{
+    margin: 50px;
+    font-family:  'Poppins', 'Fredoka One';
+    font-weight: 100;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.nav-items{
+    display: flex;
+    padding-left: 400px;
+    margin-top: -60px;
+    font-size: 25px;
+}
+
+.nav-item:hover{
+    color: orange;
+}
+
+img[alt="actions"]{
+     float: right;
+     margin-top: -80px;
+}
+
+.nav-item{
+    padding-left: 40px;
+}
+
+.nav-item-active-item{
+    color: orange;
+}
+
+.h3-new-product{
+    font-size: 40px;
+}
+
+img[alt="circles"]{
+    width: 50px;
+}
+
+.h1-wireless-headphone{
+    font-size: 80px;
+}
+
+img[alt="plus"]{
+    position: absolute;
+    max-width: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+ul{
+    list-style: none;
+}
+.list-item{
+    height: 30px;
+    width: 30px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 150px;
+  }
+
+  h5{
+    margin-left: 50px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-size: 22px;
+  }
+
+  .right-section{
+      float: right;
+  }
+
+  img[alt="headphone"]{
+      max-width: 450px;
+     margin-left: -550px;
+      margin-top: -565px;
+      position: absolute;
+        height: auto;
+     
+  }
+
+  img[alt="discount"]{
+      margin-top: -310px;
+      max-width: 160px;
+      position: absolute;
+      margin-left: -560px;
+      z-index: 1;
+  }
+
+  .discount-content{
+    margin-top: -310px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -525px;
+    color: white;
+  }
+
+  .text{
+      font-size: 15px;
+      color: darkgray;
+      width: 800px;
+      font-family: 'Fredoka One';
+      font-weight: 200;
+  }
+
+  .action-btn{
+      background-color: orangered;
+      color: white;
+      padding: 15px;
+      border-radius: 30px;
+      border-color: orangered;
+      font-size: 20px;
+     margin-right: 40px;
+      width: 200px;
+  }
+
+  .action-btn:hover{
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+}
+
+  .dots{
+      display: flex;
+      margin-top: -110px;
+      margin-left: -370px;
+  }
+  .dot-yellow-dot{
+      border-radius: 50%;
+      background-color: yellow;
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+  }
+
+  .dot-tomato-dot{
+    border-radius: 50%;
+    background-color: orangered;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.dot-black-dot{
+    border-radius: 50%;
+    background-color: black;
+    height: 25px;
+    width: 25px;
+}
+
+.action-btn-right{
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: orangered;
+    font-size: 20px;
+    width: 200px;
+    position: absolute;
+    margin-left: -410px;
+    margin-top: 20px;
+}
+
+.action-btn-right:hover{
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+}
+
+.h1-wireless-headphone{
+    font-family: 'Fredoka One';
+}
+
+.discount-content{
+    font-family: 'Fredoka One';
+}
+
+.discount-content h4{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.discount-content h1{
+    margin-top: -15px;
+    font-size: 50px;
+}
